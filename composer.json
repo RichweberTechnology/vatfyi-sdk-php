@@ -1,0 +1,25 @@
+{
+  "name": "RichweberTechnology/vatfyi-sdk-php",
+  "version": "0.1.0",
+  "description": "VAT.FYI API tools",
+  "keywords": ["vat", "api", "sdk", "php"],
+  "license": "BSD 3-Clause",
+  "support": {
+    "issues": "https://github.com/RichweberTechnology/vatfyi-sdk-php/issues",
+    "wiki": "https://github.com/RichweberTechnology/vatfyi-sdk-php/wiki",
+    "source": "https://github.com/RichweberTechnology/vatfyi-sdk-php"
+  },
+  "authors": [
+    {
+      "name": "RichWeber",
+      "email": "r.bahatyi@richweber.tech"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": { "RichweberTechnology\\vatfyi\\": "src" }
+  }
+}
