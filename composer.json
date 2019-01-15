@@ -1,7 +1,7 @@
 {
   "name": "richweber-technology/vatfyi-sdk-php",
-  "version": "0.1.0",
-  "description": "VAT.FYI API tools",
+  "version": "1.0.0",
+  "description": "VAT.fyi API tools",
   "keywords": ["vat", "api", "sdk", "php"],
   "license": "BSD-3-Clause",
   "support": {
@@ -16,7 +16,8 @@
     }
   ],
   "require": {
-    "php": ">=7.2.0"
+    "php": ">=5.6.0",
+    "guzzlehttp/guzzle": "~6.3.3"
   },
   "minimum-stability": "dev",
   "autoload": {
